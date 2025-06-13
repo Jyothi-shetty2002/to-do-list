@@ -22,3 +22,25 @@ A simple web-based To-Do List application where users can add, delete, and mark 
 - **GitHub Issues** (for tracking features/bugs)
 
 ---
+📂 Project Structure
+css
+Copy
+Edit
+todo-app/
+│
+├── index.html          → Main HTML
+├── style.css           → CSS styling
+├── script.js           → JavaScript logic
+└── .github/workflows/
+    └── lint.yml        → GitHub Action for code linting
+
+ 🤖 GitHub Workflow
+This project follows a standard GitHub development process:
+
+Use Issues to report bugs or suggest features
+
+Create feature branches for each update
+
+Submit Pull Requests (PRs) for code changes
+
+Link PRs to Issues (e.g., Closes #2)
